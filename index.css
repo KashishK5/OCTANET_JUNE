@@ -1,0 +1,131 @@
+/* Reset some default browser styles */
+body, figure, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color:#F08080; 
+    display: flex; 
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; 
+    font-weight: bold;
+    padding: 10px 20px; 
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color:burlywood; 
+}
+  
+  section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #hero {
+    background-image: url('LP.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  #hero .hero-text {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #about {
+    background-color: #fff;
+    padding: 80px 0;
+  }
+  
+  #about .about-text {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #about .about-image {
+    margin-top: 20px;
+  }
+  
+  #about .about-image img {
+    max-width: 100%;
+  }
+  
+  #courses {
+    background-color: #F08080;
+    color:#333;
+    padding: 80px 0;
+  }
+  
+  #courses h2 {
+    color: #fff;
+  }
+  
+  .course {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #admissions {
+    background-color: #fff;
+    padding: 80px 0;
+  }
+  
+  #admissions p {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Buttons */
+  .cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #6495ED;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #4169E1;
+  }
+  
